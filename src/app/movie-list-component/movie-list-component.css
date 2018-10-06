@@ -1,0 +1,45 @@
+.movietitle{
+    color:#fff;
+    font-size: 1em;
+    margin-top: 10px;
+    
+
+}
+
+
+.btn-search{
+    margin-left:20px;
+    background: #F14103;
+    color:#fff;
+
+}
+
+.search-box{
+    border:none;
+    background:  #222D36;
+    border-bottom: 1px solid #515A60;
+    width: 400px;
+    color: #515A60;
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+.movieyear{
+    color: #515A60;
+    margin-top: -3px;
+    font-size: 0.9em;
+
+}
+
+.movie-item{
+    margin-top:40px;
+}
+
+.movie-item img{
+    max-height: 340px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}

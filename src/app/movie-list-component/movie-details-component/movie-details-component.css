@@ -1,0 +1,22 @@
+.movie-details{
+    margin-top: 40px;
+    color:#fff;
+}
+
+.movie-details span{
+    color: #515A60;
+}
+
+.rating-boxs{    
+    background: rgba(0, 0, 0, 0.4);
+    padding-top:20px;
+}
+.rating-title{
+    color:#F14103;
+}
+
+.rating-value{
+   font-size: 2em;
+   margin-top:-24px;
+   font-weight: bold;  
+}

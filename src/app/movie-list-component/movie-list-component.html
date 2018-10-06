@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="search">
+        <input type="search" class="search-box" [(ngModel)]="userInput" />
+        <button class="btn btn-search" (click)="searchmovies()"> Search
+            <i class="fa fa-search"></i>
+        </button>
+      </div>
+</div>
+<div class="row" *ngIf="userInput">
+        
+        <div *ngFor=" let movie of movieList" class="movie-item col-md-3 " >
+            <a [routerLink]="['/movies', movie.imdbID]"><img src="{{movie.Poster}}" class="img-fluid" >
+            </a>
+            <div class="movietitle">{{movie.Title}}</div>
+            <div class="movieyear">{{movie.Year}}</div>
+        </div>
+    
+</div>

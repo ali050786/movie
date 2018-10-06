@@ -1,0 +1,21 @@
+<div class="movie-details" >
+    <div class="row" *ngIf="showdetails">
+    <div class="col-sm-3">
+        <img src="{{moviedetails.Poster}}" class="img-fluid" (click)="callme()">
+    </div>
+    <div class="col-sm-8">
+        <h1>{{moviedetails.Title}}</h1>
+        <p>Released on:<span> {{moviedetails.Year}}</span></p>
+        <p>Cast:<span> {{moviedetails.Actors}}</span></p>
+        <p>Plot: <span> {{moviedetails.Plot}}</span></p>
+        <div class="row rating-boxs">
+            <div class="col-sm-4"  *ngFor=" let Rating of moviedetails.Ratings">
+                <p class="rating-title">{{Rating.Source}}</p>
+                <p class="rating-value">{{Rating.Value}}</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    </div>
+</div>
